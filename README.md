@@ -122,6 +122,6 @@ To transition this prototype into a research-grade environmental monitor, the fo
 *   **MQTT & TimescaleDB Pipeline:** Establish an asynchronous MQTT client on the ESP32 to stream telemetry to an InfluxDB or TimescaleDB database. 
 *   **Grafana Visualization:** Build a cloud-hosted Grafana dashboard to track historical climatic trends, perform long-term sensor calibration, and run predictive analytics.
 
-### 4. Low-Power Optimization & Energy Harvesting 🔋
+### 4. Low-Power Optimization & Energy Harvesting 
 *   **Deep Sleep & ULP Co-processor:** Leverage the ESP32's Ultra-Low-Power (ULP) co-processor to sample sensors while the main dual-core processor is in deep sleep. This would reduce the system's idle power consumption from ~100mA to less than 15µA.
 *   **Solar Energy Harvesting:** Design a maximum power point tracking (MPPT) battery charger circuit to enable complete off-grid autonomy using small PV panels and LiFePO4 batteries.
